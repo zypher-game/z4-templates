@@ -34,6 +34,7 @@ impl Handler for GameHandler {
         peers: &[(Address, PeerId, [u8; 32])],
         _params: Vec<u8>,
         _rid: RoomId,
+        _seed: [u8; 32],
     ) -> (Self, Tasks<Self>) {
         let accounts = peers
             .iter()
