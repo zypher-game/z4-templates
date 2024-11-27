@@ -1,6 +1,0 @@
-[workspace]
-members = [
-  "custom",
-  "risc0",
-]
-resolver = "2"
